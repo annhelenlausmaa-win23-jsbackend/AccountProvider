@@ -48,7 +48,6 @@ namespace AccountProvider.Functions
                 {
                     //Verify code using VerificationProvider
 
-
                     try
                     {
                         using var http = new HttpClient();
