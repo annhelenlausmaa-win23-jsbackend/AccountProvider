@@ -51,6 +51,8 @@ public class SignIn(ILogger<SignIn> logger, SignInManager<UserAccount> signInMan
 
                     if (result.Succeeded)
                     {
+                        //return new OkObjectResult(userAccount);
+
                         //Get accesstoken from TokenProvider
                         return new OkObjectResult("accesstoken");
                     }
